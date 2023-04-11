@@ -5,7 +5,7 @@ import { Network, Alchemy } from "alchemy-sdk";
 import "./Blockspage.css";
 import { useState } from "react";
 import moment from "moment";
-import { FaRegClock } from "react-icons/fa";
+// import { FaRegClock } from "react-icons/fa";
 
 moment().format();
 
@@ -52,7 +52,7 @@ function BlocksPage() {
             <p>
               Timestamp:{" "}
               <span>
-                <FaRegClock size={13} />
+                {/* <FaRegClock size={13} /> */}
                 {data.timestamp} {lasttime}
               </span>
             </p>
