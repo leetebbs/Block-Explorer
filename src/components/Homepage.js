@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import GetBlocks from "./GetBlocks";
 import LatestTransactions from "./LatestTransactions";
-import { FaSearch } from 'react-icons/fa'
+// import { FaSearch } from 'react-icons/fa'
 
 function HomePage() {
   return (
@@ -14,7 +14,7 @@ function HomePage() {
           <div className="input_container">
             All Filters
             <input className="input"></input>
-            <button className='search-btn'><FaSearch/></button>
+            <button className='search-btn'></button>
           </div>
         </div>
       </div>
