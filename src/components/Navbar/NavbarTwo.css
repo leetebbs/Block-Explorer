@@ -1,0 +1,31 @@
+.navbarTwo_main{
+    background-color: #111111;
+    height: 3.2rem;
+    width: 100vw;
+    border: 0.5mm solid #222222;
+
+    
+}
+
+.navbarTwo_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 17%;
+}
+
+.logo{
+    max-height: 2rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+
+li{
+    color:white;
+    list-style-type: none;
+}
